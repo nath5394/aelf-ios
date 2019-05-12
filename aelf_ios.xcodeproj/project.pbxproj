@@ -14,6 +14,7 @@
 		F31CC26322886117005DEABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31CC26122886117005DEABB /* LaunchScreen.storyboard */; };
 		F31CC26E22886118005DEABB /* aelf_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31CC26D22886118005DEABB /* aelf_iosTests.swift */; };
 		F31CC27922886118005DEABB /* aelf_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31CC27822886118005DEABB /* aelf_iosUITests.swift */; };
+		F3DEDDE72288B8C2000A6008 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F3DEDDE62288B8C2000A6008 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F31CC27422886118005DEABB /* aelf_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aelf_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31CC27822886118005DEABB /* aelf_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aelf_iosUITests.swift; sourceTree = "<group>"; };
 		F31CC27A22886118005DEABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DEDDE62288B8C2000A6008 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		F31CC24C22886109005DEABB = {
 			isa = PBXGroup;
 			children = (
+				F3DEDDE62288B8C2000A6008 /* index.html */,
 				F31CC2572288610A005DEABB /* aelf_ios */,
 				F31CC26C22886118005DEABB /* aelf_iosTests */,
 				F31CC27722886118005DEABB /* aelf_iosUITests */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F31CC26322886117005DEABB /* LaunchScreen.storyboard in Resources */,
+				F3DEDDE72288B8C2000A6008 /* index.html in Resources */,
 				F31CC26022886117005DEABB /* Assets.xcassets in Resources */,
 				F31CC25E2288610A005DEABB /* Main.storyboard in Resources */,
 			);

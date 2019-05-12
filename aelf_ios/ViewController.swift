@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL (string: "https://www.aelf.org/bible");
-        let request = NSURLRequest(url: url! as URL);
-        webView.load(request as URLRequest);
+        let htmlPath = Bundle.main.path(forResource: "index", ofType: "html");
+        let url = URL(fileURLWithPath: htmlPath!, isDirectory: false);
+        webView.loadFileURL(url, allowingReadAccessTo: url);
     }
 
 
