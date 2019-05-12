@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let url = NSURL (string: "https://www.aelf.org/bible");
+        let request = NSURLRequest(url: url! as URL);
+        webView.load(request as URLRequest);
     }
 
 
